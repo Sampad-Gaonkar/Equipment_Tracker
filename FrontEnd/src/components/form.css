@@ -1,0 +1,63 @@
+.details{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(30,30,30);
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+.form{
+    width:500px;
+    margin:0px auto;
+    display: flex;
+    justify-content: center;
+}
+form{
+    background-color: white;
+    width: 100%;
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+form h1{
+    text-align: center;
+    /* border-bottom: 3px solid black; */
+    margin:15px 0px 30px;
+}
+label{
+    font-size: 18px;
+    font-weight: 600px;
+}
+.equipName{
+    width: 100%;
+}
+
+.type, .status{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.clrdate{
+    width: 100%;
+}
+.equipName, select, .clrdate{
+    padding: 15px;
+    margin: 10px 0px;
+}
+
+.submit{
+    width: 100%;
+    padding: 15px 12px;
+    background-color: rgba(0, 0, 255, 0.773);
+    color: white;
+    margin: 15px 0;
+    border-radius: 8px;
+    font-size: 17px;
+}
+.submit:hover{
+    background-color: blue;
+}
